@@ -30,7 +30,7 @@ const BackCards = () => {
       >
         <BlurCard
           className="object-top"
-          src="https://leonardo-cdn.b-cdn.net/wp-content/uploads/2024/05/Default_a_girl_fashionable_neon_colored_futuristic_rococo_tech_2.jpg"
+          src="https://cdn.leonardo.ai/users/36eaf46c-5e7e-4c84-af12-0e6db4636398/generations/b21eb1b4-12e5-41e5-bef9-b2cc20cbe6b6/Default_With_a_luminous_digital_aura_lighting_up_the_darkness_1.jpg?w=512"
         />
       </motion.div>
       <motion.div
