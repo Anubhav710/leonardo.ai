@@ -21,7 +21,7 @@ const page = () => {
         <div className="bg-black/60 px-16   py-7 h-full w-full ">
           <div className="h-full w-full flex  rounded-lg overflow-hidden">
             {/* Mian elements   */}
-            <div className=" flex flex-col   flex-1 text-white  bg-[#171717]">
+            <div className=" flex flex-col   flex-1 text-white   bg-[#171717]">
               <div className=" px-7 md:px-10  py-7 flex flex-col justify-evenly items-center h-full w-full   ">
                 <h1 className="text-red-400 text-sm">
                   No need for Register, Free login click to sign up
@@ -113,7 +113,7 @@ const page = () => {
               </div>
             </div>
             {/* Right Side  */}
-            <div className="bg-green-40 lg:flex-[3] md:flex-[1]  flex-[0] ">
+            <div className="bg-green-40 lg:flex-[3] md:flex-[1]   flex-[0] ">
               <Image
                 height={1080}
                 width={1080}

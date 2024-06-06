@@ -3,9 +3,9 @@ import { useDimention } from "@/hook/useDimention";
 import { useScroll, motion, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useRef } from "react";
-
 const col1 = [
-  "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_A_detailed_logo_for_twitch_illustration_mans_face_with_2_69c97ab5-7d8a-443f-b7dd-07fbd94b9ec1_1.jpeg",
+  "https://cdn.leonardo.ai/users/5ab604f3-4691-4fd4-9571-e2ece3fa6d73/generations/9dcd88bf-d493-4fcc-bdcd-775dc0e37746/variations/Default_photorealistic_full_body_picture_a_bit_happy_barbarism_7_9dcd88bf-d493-4fcc-bdcd-775dc0e37746_0.jpg?w=512",
+  // "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_A_detailed_logo_for_twitch_illustration_mans_face_with_2_69c97ab5-7d8a-443f-b7dd-07fbd94b9ec1_1.jpeg",
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_galaxy_stars_energy_diamond_cloud_pink_god_2_6cd9f188-96e6-4722-abd8-b8cf0fcb9fff_1.jpeg",
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_sticker_of_Boots_from_Dora_the_Explorer_full_body_free_3_f1040f88-913b-4dae-adc9-098d0689e5d8_1.jpeg",
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/DreamShaper_v7_stary_blackRose_flower_splash_arts_aesthetic_fo_0.jpeg",
@@ -14,9 +14,10 @@ const col1 = [
 
 const col2 = [
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/image-129.jpeg",
-  "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_Full_body_shot_Not_safe_for_work_full_body_potrait_of_0_df0781e9-d8fe-49e4-9f17-8017d1da7cd7_1.jpeg",
+  "https://cdn.leonardo.ai/users/96001bf1-abe2-4d4c-b6c6-f88acb6854de/generations/0bbaf459-7f05-46bc-8354-aef573f48e75/Default_Super_Realistic_Portrait_Photography_of_A_beautiful_Sc_1.jpg",
+
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_hyper_realistic_ultra_detailed_photograph_of_a_woman_s_1_6d8066d4-4036-4de0-a215-98461459e598_1.jpeg",
-  "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/DreamShaper_32_sticker_of_Vercingtorix_full_body_freedom_soul_2.jpeg",
+
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/DreamShaper_v7_ultra_detailed_image_of_lee_pace_as_Thranduil_f_0.jpeg",
   "https://leonardo-cdn.b-cdn.net/wp-content/uploads/2023/07/Default_Full_body_shot_Not_safe_for_work_full_body_potrait_of_0_df0781e9-d8fe-49e4-9f17-8017d1da7cd7_1.jpeg",
 ];

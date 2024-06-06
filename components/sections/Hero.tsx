@@ -18,15 +18,15 @@ const Hero = () => {
           Leverage generative AI with a unique suite of tools to convey your
           ideas to the world.
         </p>
-        <div className="flex gap-9 pt-4">
+        <div className="flex gap-9 pt-4 ">
           <Link
             href={"/register"}
             className="bg-gradient-to-t from-white/25 to-white/35 hover:shadow-3xl py-2 rounded-full px-9 border border-white/50 shadow-lg"
           >
-            <span className="font-medium">Get Started</span>
+            <span className="font-medium whitespace-nowrap">Get Started</span>
           </Link>
           <Link href={"/register"} className="text-lg flex items-center ">
-            <span className=""> Login As Guest</span>
+            <span className="whitespace-nowrap"> Login As Guest</span>
 
             <BiRightArrowAlt className="h-7 w-7" />
           </Link>
