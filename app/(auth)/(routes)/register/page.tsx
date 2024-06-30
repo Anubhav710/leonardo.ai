@@ -18,10 +18,10 @@ const page = () => {
     <div className="h-screen w-full">
       {/* Wrapper div  */}
       <div className=" h-full w-full   bg-[url('https://app.leonardo.ai/_next/image?url=%2Fimg%2Flogin-hero-images%2F%E4%BD%A0%E5%A4%A7%E7%88%BA.webp&w=3840&q=75')] bg-cover bg-fixed bg-no-repeat bg-center">
-        <div className="bg-black/60 px-16   py-7 h-full w-full ">
+        <div className="bg-black/60 md:px-16 px-6   py-5 h-full w-full ">
           <div className="h-full w-full flex  rounded-lg overflow-hidden">
             {/* Mian elements   */}
-            <div className=" flex flex-col   flex-1 text-white   bg-[#171717]">
+            <div className=" flex flex-col w-full  md:flex-1   text-white   bg-[#171717]">
               <div className=" px-7 md:px-10  py-7 flex flex-col justify-evenly items-center h-full w-full   ">
                 <h1 className="text-red-400 text-sm">
                   No need for Register, Free login click to sign up
@@ -81,8 +81,8 @@ const page = () => {
                   >
                     Sign up
                   </Button>
-                  <div>
-                    <p className="text-sm text-center">
+                  <div className="text-xs md:text-sm">
+                    <p className=" text-center">
                       Need an account?{" "}
                       <Link href={"/login"} className="text-violet-700">
                         Sign in
@@ -90,7 +90,7 @@ const page = () => {
                     </p>
                   </div>
                 </div>
-                <div className="">
+                <div className="text-sm md:text-md">
                   <div className="flex flex-col gap-4 items-center">
                     <h1>Available now on iOS</h1>
                     <div className=" gradient-1 p-[1px] rounded-lg ">
@@ -106,14 +106,14 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <footer className="flex gap-28 mt-3 text-xs text-gray-300 ">
-                  <p>Privacy Policy</p>
-                  <p>Terms of Service</p>
+                <footer className="flex pb-4 gap-28 mt-3 text-xs text-gray-300 ">
+                  <p className="md:whitespace-nowrap">Privacy Policy</p>
+                  <p className="md:whitespace-nowrap">Terms of Service</p>
                 </footer>
               </div>
             </div>
             {/* Right Side  */}
-            <div className="bg-green-40 lg:flex-[3] md:flex-[1]   flex-[0] ">
+            <div className="bg-green-40 flex-0 w-0 sm:w-full md:w-full md:flex-[3]  ">
               <Image
                 height={1080}
                 width={1080}

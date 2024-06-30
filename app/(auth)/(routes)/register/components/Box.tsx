@@ -7,7 +7,7 @@ import { BsMicrosoft } from "react-icons/bs";
 
 const Box = ({ icon, text }: { icon: any; text: string }) => {
   return (
-    <div className=" py-3    bg-[#3c3c3c81] cursor-pointer rounded-lg hover:bg-[#3C3C3C] px-4">
+    <div className=" py-3    bg-[#3c3c3c81] cursor-pointer rounded-lg hover:bg-[#3C3C3C] pl-4">
       <div className="flex items-center gap-2">
         <div className="h-7 w-7 ">{icon}</div>
         <span>{text}</span>
